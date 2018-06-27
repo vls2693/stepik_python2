@@ -24,4 +24,9 @@ while True:
 for i in full:
     if len(i) != 3:
         full.remove(i)
-print(full)
+
+global_env = []
+
+for i in full:
+    if i[0] != "get":
+        print(i)
