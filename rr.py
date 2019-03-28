@@ -1,4 +1,4 @@
-'''
+"""
 9
 add global a
 create foo global
@@ -8,8 +8,7 @@ get foo c
 create bar foo
 add bar a
 get bar a
-get bar b
-'''
+"""
 full = []
 pad = input()
 full.append(pad)
